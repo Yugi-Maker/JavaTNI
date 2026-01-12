@@ -41,6 +41,17 @@ public class ProductMain_Java4 {
             System.out.println("Invalid!!");
         }
 
-        Product selected = products[choice]
+        Product selected = products[choice - 1];
+
+        System.out.println("-----------------------------------------------------");
+
+        System.out.print("How many " + selected.name + " do you want to buy? ");
+        int amount = sc.nextInt();
+
+        selected.sell(amount);
+
+        System.out.println();
+
+        selected.showInfo();
     }
 }
