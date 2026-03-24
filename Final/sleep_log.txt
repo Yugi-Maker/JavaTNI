@@ -1,0 +1,2 @@
+Sleep: 00:00 | Awake: 07:00 | Total: 7h 0m | Result: You sleep enough
+Name: Sukrit | Sleep: 00:00 | Awake: 07:00 | Total: 7h 0m | Result: 🙂 You sleep enough
